@@ -1,8 +1,12 @@
+/*Desarrolla un programa que solicite al usuario ingresar dos vectores
+de igual longitud y luego calcule la suma de ambos vectores.
+El resultado debe mostrarse en un tercer vector.*/
+
 #include<iostream>
 #include<vector>
 using namespace std;
 
-int main() {
+main() {
     int longitud;
     cout << "Introduce la longitud de los vectores: ";
     cin >> longitud;
